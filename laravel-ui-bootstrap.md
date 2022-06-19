@@ -15,7 +15,13 @@ composer require laravel/ui
 php artisan ui bootstrap
 ```
 
-4. Install NPM
+4. For installing auth system
+```
+php artisan ui bootstrap --auth
+```
+
+
+5. Install NPM
 ```
 npm install
 npm run dev
