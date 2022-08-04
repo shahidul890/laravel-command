@@ -4,6 +4,10 @@
 ```
 laravel new [project name]
 ```
+OR
+```
+composer create-project laravel/laravel projectName
+```
 
 2. Install laravel UI
 ```
