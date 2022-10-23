@@ -4,3 +4,9 @@
 ```
 composer create-project laravel/laravel name "8.*"
 ```
+
+Or
+
+```
+composer create-project --prefer-dist laravel/laravel project "7.*"
+```
