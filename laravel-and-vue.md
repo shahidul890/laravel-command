@@ -1,6 +1,6 @@
-### Command for installing laravel and vue
+### Command for installing Laravel and vuejs
 
-1. Install new laravel project
+1. Install new Laravel project
 
 ```
 laravel new [project name]
@@ -22,6 +22,12 @@ npm install
 
 ```
 npm install vue@next vue-loader@next
+```
+
+3.  1. Install vue router
+
+```
+npm install --save vue-router@next
 ```
 
 4. Install Plugin Vue From Vite
