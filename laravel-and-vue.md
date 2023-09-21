@@ -1,4 +1,4 @@
-### Command for installing bootstrap UI
+### Command for installing laravel and vue
 
 1. Install new laravel project
 
