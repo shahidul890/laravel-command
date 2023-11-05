@@ -4,6 +4,12 @@
 git config --get remote.origin.url
 ```
 
+OR
+
+```
+git remote -v
+```
+
 # create a new branch
 
 ```
