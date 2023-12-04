@@ -15,3 +15,9 @@ git remote -v
 ```
 git branch -M {branch_name}
 ```
+
+OR
+
+```
+git branch [branch_name]
+```
