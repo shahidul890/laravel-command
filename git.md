@@ -35,3 +35,20 @@ git checkout ＜remotebranch＞
 # Older versions of Git requiers the creation of a new branch based on the remote
 git checkout -b ＜remotebranch＞ origin/＜remotebranch＞
 ```
+### Solution of the error while trying to clone and it got resolved.
+ 
+
+##### Let's try to resolve the issue by increasing buffer:
+```
+git config --global http.postBuffer 52428800
+```
+##### Turn off the compression
+```
+git config --global core.compression 0
+```
+#### Try the workaround here:
+```
+$ git clone https://innersource.%2A.com/*repoName.git --depth 1
+$ cd repository
+$ git fetch --unshallow
+```
