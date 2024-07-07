@@ -88,8 +88,9 @@ Assume you have a folder named `logs` that you want to ignore. Here are the step
    ```
 
 Now, Git will ignore the `logs` folder and its contents.
-=======
-### Solution of the error while trying to clone and it got resolved.
+
+
+# Solution of the error while trying to clone and it got resolved.
  
 
 ##### Let's try to resolve the issue by increasing buffer:
