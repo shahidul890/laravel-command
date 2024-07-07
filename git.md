@@ -37,6 +37,7 @@ git checkout -b ＜remotebranch＞ origin/＜remotebranch＞
 ```
 
 
+
 # To ignore a folder in Git, you can use a `.gitignore` file. Here’s how you can do it:
 
 1. **Create or Edit the `.gitignore` File**:
@@ -87,3 +88,22 @@ Assume you have a folder named `logs` that you want to ignore. Here are the step
    ```
 
 Now, Git will ignore the `logs` folder and its contents.
+=======
+### Solution of the error while trying to clone and it got resolved.
+ 
+
+##### Let's try to resolve the issue by increasing buffer:
+```
+git config --global http.postBuffer 52428800
+```
+##### Turn off the compression
+```
+git config --global core.compression 0
+```
+#### Try the workaround here:
+```
+$ git clone https://innersource.%2A.com/*repoName.git --depth 1
+$ cd repository
+$ git fetch --unshallow
+```
+
