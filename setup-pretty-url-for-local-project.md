@@ -94,6 +94,20 @@ You'll need a web server (like Apache or Nginx) to handle requests to the custom
 
 ---
 
+### **Step 4: Give the all permission to project folder (If requried)**
+Apache needs at least execute (+x) permission on each parent folder to access files.
+Run these commands:
+```bash
+# Allow Apache to traverse your folders
+sudo chmod +x /media
+sudo chmod +x "/media/shahidul"
+sudo chmod +x "/media/shahidul/Linux Operating"
+sudo chmod -R 755 "/media/shahidul/Linux Operating/joaquim/mediconanet"
+
+# Optional: Give Apache ownership (if needed)
+sudo chown -R www-data:www-data "/media/shahidul/Linux Operating/joaquim/mediconanet"
+```
+
 ### **Optional: Troubleshooting**
 - **DNS Not Resolving:** Ensure the domain is listed in `/etc/hosts`.
 - **Port Conflicts:** Ensure no other services are running on the same port (default is `80`).
